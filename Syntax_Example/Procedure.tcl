@@ -3,7 +3,7 @@ proc add {a b} {
     return [expr $a + $b]
 }
 # Usage
-set sum [ add 5 8];
+set sum [add 5 8];
 puts "The sum is === $sum"; 
 
 

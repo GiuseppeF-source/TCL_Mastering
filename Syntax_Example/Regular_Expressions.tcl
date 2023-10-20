@@ -53,6 +53,6 @@ puts "match_status <$result> Matched_string: <$match> 1st_string: <$sub1> 2nd_st
 regsub "way" $sample "abundance" sample2
 puts "Old_string: $sample \n New_string: $sample2"
 # Use the -all option to count the number of "words"
-#puts "Number of matching words: [regexp -all {[^]+} $sample]"
+puts "Number of matching words: [regexp -all {[^ ]+} $sample]"
 
 
